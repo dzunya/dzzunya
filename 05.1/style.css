@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: #1C52DD8F;
+    font-family: Roboto
+}
+.header{
+    display: inline-block;
+}
+.logo{
+    width: 319px;
+    height: 56px;
+    flex-shrink: 0;
+}
+.logo1{
+    display: inline-block;
+    position: relative;
+    width: 42px;
+    height: 43px;
+    flex-shrink: 0;
+    border-radius: 3px 0px 0px 3px;
+    background: linear-gradient(90deg, #345AA4 0%, #3F009C 100%);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    right: -100px;
+    top: 43px;
+}
+.logo2{
+    display: inline-block;
+    position: relative;
+    width: 19px;
+    height: 20px;
+    flex-shrink: 0;
+    background: #FFF;
+    top: 31px;
+    left: 65px;
+}
+.text1{
+    line-height: normal;
+    position: relative;
+    right: -156px;
+    top: -58px;
+    color: #FAFAFA;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+.menu{
+    position: relative;
+    top: -16px;
+    left: 1025px;
+    color: #EBEBEB;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+a{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    padding-right: 60px;
+    }
+.button1{
+    color: #E5E5E5;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 13px;
+    background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.00) 100%);
+    width: 164px;
+    height: 61px;
+    flex-shrink: 0;
+    border: 0px;
+    }
+.text2{
+    color: #FFF;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 45px;
+    }
+.text4{
+    position: relative;
+    color: #E5E5E5;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    }
+
+.img{
+    position: relative;
+    width: 833px;
+    height: 664px;
+    flex-shrink: 0;
+    left: 1056px;
+    top: -2px
+
+}
+.maininfo{
+    right: -100px;
+    position: relative;
+    margin-top: -670px;
+}
+
+.button2{
+    border-radius: 13px;
+    background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 100%);
+    width: 277px;
+    height: 85px;
+    flex-shrink: 0; 
+    border: 0px;
+    color: #E5E5E5;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+    
+   
