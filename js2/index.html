@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geometric shapes</title>
+</head>
+<body>
+    <script>
+        document.write("порожній квадрат<br>")
+        for(var a = 0; a < 10; a++){
+            if(a == 0 || a == 9){
+                for(var b = 0; b < 10; b++){
+                    document.write("* &nbsp");       
+                }
+            }
+            else{
+                document.write("* &nbsp"); 
+                for(var c = 0; c < 8; c++){
+                    document.write(" &nbsp &nbsp");
+                }
+                document.write("* &nbsp");
+            }
+            document.write("<br>");
+        }
+        document.write("<br>рівносторонній трикутник<br>")
+        for (var f = 1; f <= 5; f++) {
+            for (var s = 1; s <= 5 - f; s++) {
+            document.write("&nbsp;&nbsp;");
+            }
+            for (var r = 1; r <= 2 * f - 1; r++) {
+                document.write("*");
+            }
+        document.write("<br>");
+        }
+        document.write("ромб<br>")
+        for (var h = 1; h <= 5; h++) {
+        for (var s = 1; s <= 5 - h; s++) {
+            document.write("&nbsp;&nbsp;");
+        }
+
+        for (var r = 1; r <= 2 * h - 1; r++) {
+            document.write("*");
+        }
+
+        document.write("<br>");
+        }
+        for (var j = 4; j >= 1; j--) {
+            for (var s = 1; s <= 5 - j; s++) {
+                document.write("&nbsp;&nbsp;");
+            }
+
+            for (var r = 1; r <= 2 * j - 1; r++) {
+                document.write("*");
+            }
+
+            document.write("<br>");
+        }
+
+
+    </script>
+
+    <scr
